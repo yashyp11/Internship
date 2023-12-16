@@ -1,0 +1,110 @@
+ body {
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     margin: 0;
+     padding: 0;
+     background-color: #f8f9fa;
+     color: #343a40;
+     line-height: 1.6;
+ }
+
+ .container {
+     max-width: 800px;
+     margin: 0 auto;
+     padding: 20px;
+ }
+
+ .header {
+     background-color: #007bff;
+     color: #fff;
+     text-align: center;
+     padding: 2em 0;
+ }
+
+ h1 {
+     margin: 0;
+     font-size: 2.5em;
+ }
+
+ hr {
+     border: 1px solid #dee2e6;
+     margin: 1em 0;
+ }
+
+ h2 {
+     color: #007bff;
+     margin-top: 1.5em;
+     font-size: 1.8em;
+ }
+
+ p {
+     margin: 0 0 1em 0;
+     font-size: 1.1em;
+ }
+
+ a {
+     color: #007bff;
+     text-decoration: none;
+     transition: color 0.3s ease-in-out;
+ }
+
+ a:hover {
+     color: #0056b3;
+ }
+
+ ul {
+     list-style: none;
+     padding: 0;
+     margin: 0;
+ }
+
+ li {
+     margin-bottom: 0.5em;
+     font-size: 1.1em;
+ }
+
+ .education-info {
+     margin-bottom: 2em;
+ }
+
+ .skills ul {
+     display: flex;
+     flex-wrap: wrap;
+     padding: 0;
+ }
+
+ .skills li {
+     margin: 0 1em 0.5em 0;
+     background-color: #007bff;
+     color: #fff;
+     padding: 0.8em;
+     border-radius: 4px;
+     font-size: 1.1em;
+ }
+
+ .interests ul {
+     columns: 2;
+     padding: 0;
+ }
+
+ .interests li {
+     margin-bottom: 0.5em;
+     font-size: 1.1em;
+ }
+
+ .section-title {
+     border-bottom: 2px solid #007bff;
+     padding-bottom: 0.5em;
+     margin-bottom: 1em;
+     font-size: 1.5em;
+ }
+
+ .contact-info {
+     /* display: flex; */
+     justify-content: space-between;
+     margin-top: 2em;
+     font-size: 1.1em;
+ }
+
+ .contact-info p {
+     margin: 0;
+ }
